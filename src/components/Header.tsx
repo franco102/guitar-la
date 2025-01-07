@@ -1,5 +1,5 @@
 import { Dispatch, useMemo } from "react";
-import type { CartId, CartItem } from "../interfaces/cart";
+import type {   CartItem } from "../interfaces/cart";
 import { CartActions } from "../reducers/cart-reducer";
 interface HeaderProps {
     cart:CartItem[]
